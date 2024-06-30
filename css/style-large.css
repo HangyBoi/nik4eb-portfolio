@@ -1,0 +1,99 @@
+section.logo_nav-container nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.logo_nav-container nav {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+section.about_Me {
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'DM Sans';
+}
+
+section.about_Me {
+    margin: 50px 100px;
+}
+
+section.about_Me section.hello-container p {
+    font-size: 30px;
+    text-align: start;
+}
+
+section.about_Me section.field-name-container h3 {
+    font-size: 60px;
+    text-align: end;
+    color:#5e5d5d;
+}
+
+section.about_Me section.field-name-container p {
+    font-size: 18px;
+    color: #898989;
+    text-align: end;
+}
+
+
+main {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+main section.Portfolio {
+    display: flex;
+    gap: 25px;
+}
+
+main section.portfolio-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    height: auto;
+    gap: 25px;
+}
+
+section.contact-aside {
+    width: 15%;
+}
+
+section.contact-aside aside {
+    position: sticky;
+    top: 0;
+}
+
+.project-description {
+    margin-right: 10px;
+    flex-basis: 40%;
+}
+
+figure.project-image {
+    flex-shrink: 1;
+    flex-basis: 60%;
+}
+
+.project-gif {
+    width: 430px;
+    height: 300px;
+    object-fit: cover; 
+}
+
+section.contact-aside aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+aside h2#contact {
+    font-size: 32px;
+}
+
+h2#about {
+    margin-bottom: 25px;
+}
